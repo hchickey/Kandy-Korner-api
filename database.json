@@ -1,0 +1,247 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "fullName": "Deon Savage",
+            "email": "dsavage@cornell.edu",
+            "isStaff": false
+        },
+        {
+            "id": 2,
+            "fullName": "Wendy White",
+            "email": "wwhite@usa.gov",
+            "isStaff": false
+        },
+        {
+            "id": 3,
+            "fullName": "Heather Camp",
+            "email": "hcamp@netvibes.com",
+            "isStaff": false
+        },
+        {
+            "id": 4,
+            "fullName": "Ruth Elkins",
+            "email": "relkins@gmail.com",
+            "isStaff": true
+        },
+        {
+            "id": 5, 
+            "fullName": "Frank Sinatra",
+            "email": "fsinatra@music.net",
+            "isStaff": true
+        },
+        {
+            "id": 6,
+            "fullName": "Halley Berry",
+            "email": "hberry@wtr.edu",
+            "isStaff": false
+        },
+        {
+            "id": 7,
+            "fullName": "Jeff Perry",
+            "email": "jeff@perry.com",
+            "isStaff": false
+        },
+        {
+            "id": 8,
+            "fullName": "Penny Lost",
+            "email": "penny@lost.net",
+            "isStaff": true
+        },
+        {
+            "id": 9,
+            "fullName": "Joshua Wise",
+            "email": "josh.wise@foodnetwork.com",
+            "isStaff": true
+        },
+        {
+            "id": 10,
+            "fullName": "Johnny Lang",
+            "email": "jon.lang@yahoo.com",
+            "isStaff": true
+        },
+        {
+            "id": 11,
+            "fullName": "Hillary Clint",
+            "email": "missclint@usa.gov",
+            "isStaff": true
+        },
+        {
+            "id": 12,
+            "fullName": "Chuck Bates",
+            "email": "bates.chuck@lsu.edu",
+            "isStaff": true
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "address": "2802 Zula Locks",
+            "phoneNumber": "852-837-9713",
+            "userId": 2,
+            "loyaltyNumber": 45678
+
+        },
+        {
+            "id": 2,
+            "address": "56849 Fadel Gateway",
+            "phoneNumber": "202-244-7090",
+            "userId": 1,
+            "loyaltyNumber": 12345
+        },
+        {
+            "id": 3,
+            "address": "7346 Ritchie Road",
+            "phoneNumber": "597-720-1154",
+            "userId": 3,
+            "loyaltyNumber": 98765
+        },
+        {
+            "id": 4,
+            "address": "124 Lovelock Lane",
+            "phoneNumber": "432-311-5444",
+            "userId": 6,
+            "loyaltyNumber": 87654
+        },
+        {
+            "id": 5,
+            "address": "788 Holmes Drive",
+            "phoneNumber": "955-222-9800",
+            "userId": 7,
+            "loyaltyNumber": 19283
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "startDate": "",
+            "payRate": 12.50,
+            "locationId": 1,
+            "userId": 4
+        },
+        {
+            "id": 2,
+            "startDate": "",
+            "payRate": 13.50,
+            "locationId": 2,
+            "userId": 5
+        },
+        {
+            "id": 3,
+            "startDate": "",
+            "payRate": 14.50,
+            "locationId": 3,
+            "userId": 8
+        },
+        {
+            "id": 4,
+            "startDate": "",
+            "payRate": 15.50,
+            "locationId": 1,
+            "userId": 9
+        },
+        {
+            "id": 5,
+            "startDate": "",
+            "payRate": 16.50,
+            "locationId": 2,
+            "userId": 10
+        },
+        {
+            "id": 6,
+            "startDate": "",
+            "payRate": 17.50,
+            "locationId": 3,
+            "userId": 11
+        },
+        {
+            "id": 7,
+            "startDate": "",
+            "payRate": 18.50,
+            "locationId": 1,
+            "userId": 12
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "address":"2388 Main Drive",
+            "size": "1200 SquareFt"
+        },
+        {
+            "id": 2,
+            "address":"235 North Broadway",
+            "size": "1250 SquareFt"
+        },
+        {
+            "id": 3,
+            "address":"5858 Third Ave",
+            "size": "1400 SquareFt"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Jolly Ranchers Candy",
+            "typeId": 1,
+            "price": 2
+        },
+        {
+            "id": 2,
+            "name": "Nerds Candy",
+            "typeId": 1,
+            "price": 2.25
+        },
+        {
+            "id": 3,
+            "name": "Jawbreakers Candy",
+            "typeId": 1,
+            "price": 1.25
+        },
+        {
+            "id": 4,
+            "name": "Swedish Fish Candy",
+            "typeId": 2,
+            "price": 2.50
+        },
+        {
+            "id": 5,
+            "name": "Milky Way Candy Bar",
+            "typeId": 3,
+            "price": 3.50
+        },
+        {
+            "id": 6,
+            "name": "Hershey's Kisses",
+            "typeId": 3,
+            "price": 2.75
+        },
+        {
+            "id": 7,
+            "name": "M&M's Candy",
+            "typeId": 3,
+            "price": 2.25
+        },
+        {
+            "id": 8,
+            "name": "Gummi Bears",
+            "typeId": 2,
+            "price": 1.75
+        }
+    ],
+    "types": [
+        {
+            "id": 1,
+            "candy": "hard candy"
+        },
+        {
+            "id": 2,
+            "candy": "gummies"
+        },
+        {
+            "id": 3,
+            "candy": "chocolate"
+        }
+    ],
+    "purchases": []
+}
